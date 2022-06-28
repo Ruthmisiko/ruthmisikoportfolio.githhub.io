@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        function myFunction(){
+            document.getElementById("about-text").innerHTML="Booking form unavailable";
+        }
+    </script>
+</head>
+<body>
+    <!--Hero section starts-->
+    <div class="hero">
+        <nav>
+            <h2 class="logo"><a href="#about-text">Portfolio</a></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-text">About Us</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="mailto:ruthmisiko2@gmail.com" class="btn">Hire Me</a>
+        </nav>
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Ruth <span style="color:black;">Nafula </span>Misiko</h1>
+            <h3> I'am a Web Developer.</h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Book Now" onclick="window.alert('Thank you for booking with us')">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--About section-->
+    <sectionc class="about">
+        <div class="main">
+            <img src="images/a026.jpg">
+            <div id="about-text">
+                <h2><u>About Me</u></h2>
+                <h5> Developer & Designer</h5>
+                <p>I am a front end web developer with quality skills capable of providing clean code,
+                    and presentable user Inerfaces. I also provide authentication services to the website
+                     to enhance cyber security. I have skills in PHP and laravel framework
+                     and therefore i can make a responsive website with back end functionalities.<br>
+                     <button type="button" onclick="myFunction()"> Hire Me</button>
+                </p>
+            </div>
+        </div>
+    </sectionc>
+
+    <!--Service section-->
+    <div id="service">
+        <div class="tittle">
+            <h2><u>My Services</u></h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class=" fas fa-bars"></i>
+                <h5> Web Development</h5>
+                <div class="pra">
+                    <p>I am a web developer with skills in HTML and CSS. specifically am good at front end development with beautiful user interface designs.
+                        I also have skills in PHP and laravel framework used for backend development.
+                    </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Sample</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class=" fas fa-bars"></i>
+                <h5>Portfolio Designs</h5>
+                <div class="pra">
+                    <p>portfolio designs represents your work and and can be shared with clients or anyone interested. Hire me to secure yourself a portfolio design and share with your clients. this will help your clients to see what softares you have worked on </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Sample</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class=" fas fa-bars"></i>
+                <h5>Programming Task</h5>
+                <div class="pra">
+                    <p>Do you have pending projects and you are looking for someone to assist you? i am your best solution. i deal with projects related to web development and machine learning. in addition to programming tasks, i have incredible experience in online writing.</p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="tittle">
+            <h2><u>My Skills</u></h2>
+        </div>
+
+        <div class="box">
+            <div class="card1">
+                <i class=" fas fa-bars"></i>
+                <h5> </h5>
+            </div>
+
+            <div class="card2">
+                <i class=" fas fa-bars"></i>
+                <h5></h5>
+            </div>
+
+            <div class="card3">
+                <i class=" fas fa-bars"></i>
+                <h5></h5>
+            </div>
+        </div>
+
+    <!--Contact section-->
+    <div class="contact-me">
+        <p>*Hire me and experience Quality work*</p>
+        <a class="button-two" href="mailto:ruthmisiko2@gmail.com">Hire Me</a>
+    </div>
+
+    <!--footer section-->
+    <footer>
+        <i class="fa-brands fa-whatsapp"></i>
+         <p>&copy Ruth Misiko</p>
+    </footer>
+</body>
+</html>
